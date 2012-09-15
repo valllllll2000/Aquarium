@@ -1,0 +1,17 @@
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+     <PreferenceCategory android:title="@string/user_prefs"></PreferenceCategory>
+     
+    <ListPreference android:dialogTitle="@string/fish_number" 
+        android:key="fish_number"
+        android:entries="@array/fish_val" 
+        android:entryValues="@array/fish_val" android:title="@string/fish_number" 
+        android:defaultValue="30"/>
+    
+    <ListPreference android:dialogTitle="@string/plant_number" 
+        android:key="plant_number" 
+        android:entries="@array/plant_val" 
+        android:entryValues="@array/plant_val" 
+        android:title="@string/plant_number" android:defaultValue="5"/>
+   
+</PreferenceScreen>
